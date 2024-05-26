@@ -5,7 +5,8 @@ spring:
       overrideNone: true
   datasource:
     driverClassName: org.h2.Driver
-    username: sa
+    url: "jdbc:h2:mem:tipoCambioDB;DB_CLOSE_DELAY=-1"
+    username: sa2
     password:
   h2:
     console:
