@@ -1,2 +1,8 @@
+spring:
+  cloud:
+    config:
+      allowOverride: true
+      overrideNone: true
+
 test: Testing 7!
 test2: Testing 9!
