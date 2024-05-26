@@ -1,8 +1,4 @@
 spring:
-  cloud:
-    config:
-      allowOverride: true
-      overrideNone: true
   datasource:
     driverClassName: org.h2.Driver
     url: "jdbc:h2:mem:tipoCambioDB;DB_CLOSE_DELAY=-1"
